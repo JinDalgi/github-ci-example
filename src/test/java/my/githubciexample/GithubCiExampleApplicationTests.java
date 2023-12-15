@@ -10,10 +10,10 @@ class GithubCiExampleApplicationTests {
     void contextLoads() {
     }
 
-//    @Test
-//    void testFail() {
-//        throw new RuntimeException("Fail Test");
-//    }
+    @Test
+    void testFail() {
+        throw new RuntimeException("Fail Test");
+    }
 
     @Test
     void testSuccess() {
