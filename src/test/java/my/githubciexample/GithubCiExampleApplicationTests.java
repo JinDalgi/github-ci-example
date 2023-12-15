@@ -10,4 +10,13 @@ class GithubCiExampleApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void testFail() {
+        throw new RuntimeException("실패");
+    }
+
+    @Test
+    void testSuccuss() {
+        System.out.println("성공");
+    }
 }
