@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # 사용자가 실행했을 때
   push:   # push가 유발되었을 때
     #branches: master   # master 브랜치에 push가 유발된 경우
-    branches: ['master', 'develop']   # master, develop 브랜치에 푸시가 유발된 경우
+    #branches: ['master', 'develop']   # master, develop 브랜치에 푸시가 유발된 경우
     # 작성을 안 하면 그냥 모든 브랜치를 타겟으로 잡음.
 
 jobs:
