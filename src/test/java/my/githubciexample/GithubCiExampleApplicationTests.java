@@ -12,11 +12,11 @@ class GithubCiExampleApplicationTests {
 
     @Test
     void testFail() {
-        throw new RuntimeException("실패");
+        throw new RuntimeException("Fail Test");
     }
 
     @Test
-    void testSuccuss() {
-        System.out.println("성공");
+    void testSuccess() {
+        System.out.println("Success Test");
     }
 }
