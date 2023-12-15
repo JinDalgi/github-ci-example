@@ -11,6 +11,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Git checkout # 단위 명령어의 이름
+        uses: action/checkout@v.3.0.2   # 버전이 달라지므로 문서에서 확인
+
       - name: set up JDK 17
         uses: actions/setup-java@v3.0.2
         with:
